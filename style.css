@@ -9,6 +9,7 @@ header {
     justify-content: center;
     width: 100vw;
     height: 30vh;
+    margin: 0 auto;
 }
 
 header img {
@@ -24,11 +25,10 @@ form {
 }
 
 form fieldset {
+    width: 90%;
     max-width: 500px; 
     
     display: flex;
-    align-items: center;
-    justify-content: center;
     
     border: none;
     border: 2px solid white;
@@ -36,18 +36,30 @@ form fieldset {
     
     margin: 5% auto;
 }
+.input-container {
+    display: flex;
+    align-items: center;
 
+    margin: 0 auto;
+
+
+
+}
 
 form input {
     width: 90%;
     border: none;
     background: none;
     outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .fas {
     color: rgba(255, 255, 255, 0.788);
-    font-size: 30px;
-
+    width: 10px;
+    height: 10px;
     
 }
