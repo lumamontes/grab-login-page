@@ -61,6 +61,7 @@ form input {
 
 }
 .button  {
+    color: black;
     background-color: white; 
     padding: 13px 120px;
     border-radius: 30px;
