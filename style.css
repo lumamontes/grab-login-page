@@ -78,6 +78,8 @@ footer {
     display: none;
     background-color: #F8F8F8;
 }
+
+
 @media (min-width: 1000px) {
     body {
         display: flex;
